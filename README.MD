@@ -1,15 +1,11 @@
 
-## Xray 基于 Nginx 的 VLESS + XTLS 一键安装脚本 <img src="https://raw.githubusercontent.com/wulabing/Xray_onekey/main/image/project_xray.jpg" alt="Project_Xray" width="122" height="30" align="bottom" />
+## Xray 基于 Nginx 的 VLESS + XTLS 一键安装脚本 <img src="https://raw.githubusercontent.com/mikewubox/xray1key/main/image/project_xray.jpg" alt="Project_Xray" width="122" height="30" align="bottom" />
 
 
 > 感谢 JetBrains 提供的非商业开源软件开发授权！
 
 > Thanks for non-commercial open source development authorization by JetBrains!
 
-
-### Telegram 群组
-* Telegram 交流群：https://t.me/wulabing_v2ray 
-* Telegram 更新公告频道：https://t.me/wulabing_channel
 
 ### 准备工作
 * 准备一个域名，并将 A 记录添加好；
@@ -28,7 +24,7 @@ VLESS + TCP + XTLS / TLS  + Nginx 及 VLESS + TCP + TLS + Nginx + WebSocket 回�
 ### 安装/更新方式（Xray）
 
 ```
-wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/Xray_onekey/main/install.sh" && chmod +x install.sh && bash install.sh
+wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/mikewubox/xray1key/main/install.sh" && chmod +x install.sh && bash install.sh
 ```
 
 ### 注意事项
@@ -72,11 +68,6 @@ Nginx 目录： `/etc/nginx`
 
 https://bandwagonhost.com/aff.php?aff=63939
 
-支持通过 Telegram MugglePay 接受虚拟货币捐赠。
-
-发送 `/pay @wulabing xxx` 到 @MugglePayBot 即可，默认货币为 USDT。
-
-如需要通过支付宝/微信捐赠，请在 Telegram 私聊 [@wulabing](https://t.me/wulabing)，感谢您的支持！
 
 ## Stargazers over time
 
