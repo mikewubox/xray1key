@@ -64,7 +64,7 @@ Nginx 目录： `/etc/nginx`
 
 ### 捐赠
 
-您可以使用我的 搬瓦工 AFF 购买 VPS
+您可以使用wulabing的 搬瓦工 AFF 购买 VPS
 
 https://bandwagonhost.com/aff.php?aff=63939
 
