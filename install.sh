@@ -205,7 +205,7 @@ function domain_check() {
   read -rp "请输入你的域名信息(eg: www.xxx.com):" domain
   domain_ip=$(ping "${domain}" -c 1 | sed '1{s/[^(]*(//;s/).*//;q}')
   print_ok "正在获取 IP 地址信息，请耐心等待"
-  local_ip=$(curl -4 ip.sb)
+  local_ip=$(curl -s https://api.ipify.org)
   echo -e "域名通过 DNS 解析的 IP 地址：${domain_ip}"
   echo -e "本机公网 IP 地址： ${local_ip}"
   sleep 2
